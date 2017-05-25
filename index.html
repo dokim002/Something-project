@@ -46,11 +46,11 @@
       </ul>
       <p><strong>Renovate an island and reap the rewards</strong></p>
    <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Isle Abeens')">Isle Abeens</button>
-  <button class="tablinks" onclick="openCity(event, 'Isle Aplenny')">Isle Alpenny</button>
-  <button class="tablinks" onclick="openCity(event, 'Isle Aphun')">Isle Aphun</button>
-  <button class="tablinks" onclick="openCity(event, 'Isle Evelup')">Isle Evelup</button>
-  <button class="tablinks" onclick="openCity(event, 'Isle Avue')">Isle Avue</button>
+  <button class="tablinks" onclick="island(event, 'Isle Abeens')">Isle Abeens</button>
+  <button class="tablinks" onclick="island(event, 'Isle Aplenny')">Isle Alpenny</button>
+  <button class="tablinks" onclick="island(event, 'Isle Aphun')">Isle Aphun</button>
+  <button class="tablinks" onclick="island(event, 'Isle Evelup')">Isle Evelup</button>
+  <button class="tablinks" onclick="island(event, 'Isle Avue')">Isle Avue</button>
 
 
 </div>
@@ -80,7 +80,7 @@
   
         
       <script>
-function openCity(evt, cityName) {
+function island(evt, islandName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -90,7 +90,7 @@ function openCity(evt, cityName) {
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(islandName).style.display = "block";
     evt.currentTarget.className += " active";
 }
 </script>
