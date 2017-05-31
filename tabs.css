@@ -1,7 +1,7 @@
 
        div.tab {
       overflow:hidden;
-      width:40%;
+      width:35%;
       border: 1px solid #ccc;
       background-color: #f1f1f1;
       }
@@ -21,7 +21,7 @@
       }
       .tabcontent {
       display: none;
-             width:40%;
+             width:34%;
       padding: 6px 5px;
       border: 1px solid #ccc;
       border-top: none;
