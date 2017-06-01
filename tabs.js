@@ -1,4 +1,3 @@
-<script>
 function island(evt, islandName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -12,4 +11,4 @@ function island(evt, islandName) {
     document.getElementById(islandName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-</script>
+
