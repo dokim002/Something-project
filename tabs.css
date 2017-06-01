@@ -35,12 +35,15 @@
 .right:hover {color: red;
 }
 table#t01 tr:nth-child(even) {
+       overflow:hidden;
   color:white;
 }
 table#t01 tr:nth-child(odd) {
+       overflow:hidden;
   color:white;
 }
 table#t01 th {
+       overflow:hidden;
     color: white;
 }
        
